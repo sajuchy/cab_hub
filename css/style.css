@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'lato-black';
+    src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: 'lato-semibold';
+    src: url(../fonts/LatoSemibold.ttf);
+}
+@font-face {
+    font-family: 'lato-regular';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'lato-medium';
+    src: url(../fonts/Lato-Medium.ttf);
+}
+@font-face {
+    font-family: 'bebas-bold';
+    src: url(../fonts/BebasNeue\ Bold.otf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato-black';
+    font-weight: 400;
+    color: #fff;
+    
+}
+/* header start here */
+
+header{
+    background-image: url(../images/header-bg.jpg);
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    
+    
+    height: 739px;
+    
+   
+    
+}
+
+
+
+/* nav start */
+.c_nav{
+    background-color: #101010 !important;
+    opacity: 1;
+    padding: 10px 20px;
+    
+    
+}
+
+.logo{}
+
+
+.menu ul li a{
+   
+    color: #fff !important;
+    margin-right: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.menu ul li .nav-active{
+    background-color: #ffc61a !important;
+    color:#101010 !important ;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 4px 15px;
+    margin-top: 4px;
+    transition: .3s;
+   
+    
+}
+
+.menu ul li a:hover{
+    background-color: #ffc61a !important;
+    color:#101010 !important ;
+    border-radius: 15px;
+    padding: 4px 15px;
+    margin-top: 4px;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+.nav-togg{
+   
+    border: 2px solid #ffc61a !important;
+    transition: .3s;
+    
+}
+
+.c_icon{
+    color: #ffc61a;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-togg:hover{
+    background-color:#ffc61a;
+    
+}
+.c_icon:hover{
+    color: #101010 ;
+}
+
+/* nav end */
+/* header-info start */
+.header-info{
+    margin-top: 180px;
+}
+
+.header-info h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    
+}
+
+.header-info p{
+    text-transform: uppercase;
+    font-family: 'lato-regular';
+    font-size: 16px;
+    letter-spacing: 6px;
+    
+
+
+}
+.header-info h1{
+    font-weight: 900;
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.header-img{
+    margin-top: -55px;
+}
+
+.header-img img{
+
+}
+/* header-info end */
+
+/* header end here */
+
+/* cab start */
+
+section.cab{
+   height: 730px;
+}
+.cab_left{
+    margin-top: 190px;
+    /* padding:0 136px; */
+    padding: 75px;
+}
+
+.cab_left h3{
+    color:#101010;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.cab_left h1{
+    color:#101010;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-size: 42px;
+    
+   
+}
+.cab_left p{
+    font-family: 'lato-regular';
+    font-size: 16px;
+    color: #101010;
+    margin-bottom: 30px;
+    
+   
+
+}
+
+.cab_right{
+    margin-top: 264px;
+    background-color: #fff;
+    width: 335px;
+    
+}
+
+.cab_right h1{
+    padding: 25px;
+    color: #fff;
+    background-color: #101010;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cab_right h1 span{
+   
+}
+
+.cab_right .form{
+    padding: 30px 40px;
+}
+
+.cab_right .form input[type="text"]{
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #e4e4e4;
+    border-radius: 0;
+    font-family: 'lato-regular';
+    font-weight: 400;
+    /* box-shadow: none; */
+    text-transform: capitalize;
+    cursor: pointer;
+  
+   
+
+    
+}
+.cab_right .form select{
+    border: none;
+    border-bottom: 2px solid #e4e4e4;
+    border-radius: 0;
+}
+
+.cab_right .form select option{
+    font-family: 'lato-regular';
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+.cab_right form input.form-control:focus{
+   
+    border-color: #ffc61a !important;
+    box-shadow: none;
+}
+.cab_right select.form-control:focus{
+   
+    border-color: #ffc61a !important;
+    box-shadow: none;
+}
+
+
+
+.c_button {
+    padding: 5px 100px;
+    font-size: 1.25rem !important;
+    border: none;
+    border-radius: 3px !important;
+    text-transform: uppercase;
+    color: #fff !important;
+    transition: .3s;
+    font-family: 'bebas-bold';
+    font-weight: 400;
+    letter-spacing: 2px;
+    background-color: #101010;
+    
+    
+
+}
+
+ .c_button:hover{
+    color: #ffc61a !important;
+    background-color: #101010;
+    
+
+}
+
+
+/* cab end */
+
+/* card start */
+section.m-card{
+    height: 730px;
+}
+
+.c_heading{
+    margin-top: 80px;
+}
+
+.c_heading h3{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.c_heading h1{
+    font-size: 45px;
+    color: #101010;
+    text-transform: uppercase;
+    
+}
+
+
+.card{
+    background-color: #f5f4f2;
+    border: 0 !important;
+    margin-top: 130px;
+    position: relative;
+    
+}
+.card .card-car{
+    position: absolute;
+    top: -91px;
+    left: 20px;
+    
+}
+.card .card-body{
+    margin-top: 90px;
+}
+.card .card-body h2{
+    
+    color: #101010;
+    text-transform: uppercase;
+    
+    
+}
+.card .card-body p{
+    font-family: 'lato-regular';
+    font-style: 400;
+    color: #101010;
+    padding: 17px 26px;
+    word-spacing: 1px;
+    
+    
+
+}
+.card .card-body h1{
+    padding-bottom: 17px;
+    color: #ffc61a;
+    text-transform: uppercase;
+
+}
+.card .card-body h1{
+    padding-bottom: 17px;
+    color: #ffc61a;
+    text-transform: uppercase;
+
+}
+
+.card-star{
+    width: 40px;
+    /* position: relative; */
+}
+.card-star img{
+    position: absolute;
+    top: 302px;
+    left: 282px;
+}
+
+
+
+
+/* card end */
+
+
+
+/* .utilities */
+h1,h2,h3,h4,h5,h6,a,ul,input,button,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* background-color */
+
+.bg-orange{
+    background-color: #ffc61a !important;
+}
+
+.text-orange{
+    color: #ffc61a;
+}
+.text-black{
+    color: #101010 !important;
+}
+
+
+
+.btn-custom{
+    color: #fff;
+    background: #101010;
+    font-family: 'bebas-bold';
+    font-weight: 400;
+    width: 110px;
+    height: 45px;
+    padding: 12px 0;
+    letter-spacing: 2px;
+    transition: .3s;
+    /* border: 2px solid #101010; */
+    
+    
+}
+
+.btn-custom:hover{
+    color: #101010;
+    background: #ffc61a;
+}
+
+
+.btn-custom-yellow{
+    color: #101010;
+    background: #ffc61a;
+    font-family: 'bebas-bold';
+    font-weight: 400;
+    width: 110px;
+    height: 45px;
+    padding: 12px 0;
+    letter-spacing: 2px;
+    transition: .3s;
+    
+}
+
+.btn-custom-yellow:hover{
+    color: #ffc61a;
+    background: #101010;
+}
+

@@ -1,0 +1,289 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header start */
+    header{
+        height: 290px;
+        background-size: cover;
+        object-fit: cover;
+        
+    }
+    .header-info {
+        margin-top: 100px;
+    }
+
+    .header-info h3{
+        font-size: 20px;
+    }
+    .header-info h1{
+        font-size: 30px;
+    }
+    .header-info p{
+        letter-spacing: 1px;
+    }
+
+    
+
+   
+    /* header end */
+    /* cab start */
+    section.cab{
+        height: 520px;
+    }
+   
+    .cab_right {
+        margin-top: 55px;
+        background-color: #fff;
+        width: 296px;
+    }
+
+    .cab_right h1{
+        padding: 30px;
+        font-size: 35px;
+    }
+    .c_button{
+        padding: 3px 79px;
+    }
+
+  /* cab end */
+   /* card start */
+   section.m-card {
+        height: 590px;
+    }
+    .c_heading{
+        margin-top: 45px;
+    }
+
+    .c_heading h3{
+        font-size: 28px;
+    }
+
+    .c_heading h1{
+        font-size: 35px;
+    }
+
+    .card{
+        margin-top: 25px;
+    }
+    .card .card-car {
+        position: absolute;
+        top: -51px;
+        left: 22px;
+    }
+    .card .card-body{
+        margin-top: 30px;
+    }
+    .card .card-body h2 {
+       
+        font-size: 25px;
+    }
+    .card .card-body p{
+        padding: 12px 30px;
+        
+    }
+    
+
+    .card .card-body h1 {
+        
+        font-size: 25px;
+    }
+   
+    .card-star img {
+        position: absolute;
+        top: 225px;
+        left: 222px;
+    }
+
+    .btn-custom-yellow {
+        width: 100px;
+        height: 40px;
+        padding: 10px 0;
+        
+    }
+
+    .btn-custom{
+        width: 100px;
+        height: 40px;
+        padding: 10px 0;
+    }
+    /* card end */
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* header start */
+    header{
+        height: 550px;
+        background-size: cover;
+        object-fit: cover;
+        
+    }
+    .header-info {
+        margin-top: 80px;
+    }
+
+   
+    /* header end */
+    /* cab start */
+    section.cab{
+        height: 600px;
+    }
+   
+    .cab_right {
+        margin-top: 80px;
+        background-color: #fff;
+        width: 520px;
+    }
+
+    .cab_right h1{
+        padding: 30px;
+        font-size: 35px;
+    }
+    .c_button{
+        padding: 5px 190px;
+    }
+
+  /* cab end */
+   /* card start */
+   section.m-card {
+        height: 590px;
+    }
+    .c_heading{
+        margin-top: 45px;
+    }
+    .card .card-car {
+        position: absolute;
+        top: -90px;
+        left: 82px;
+    }
+    .card .card-body p{
+        padding: 17px 80px;
+    }
+    .card-star img {
+        position: absolute;
+        top: 283px;
+        left: 442px;
+    }
+    /* card end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start */
+    header{
+        height: 700px;
+  }
+    .header-info {
+        margin-top: 80px;
+    }
+  /* header end */
+
+  /* cab start */
+    section.cab {
+        height: 590px;
+    }
+    .cab_left {
+        margin-top: 100px;
+        padding: 5px;
+    }
+
+    .cab_left h1{
+        padding-bottom: 20px;
+        font-size: 35px;
+    }
+    .cab_right {
+        margin-top: 115px;
+        background-color: #fff;
+        width: 280px;
+    }
+    .cab_right h1 {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .c_button{
+        padding: 5px 72px;
+    }
+
+  /* cab end */
+
+
+  /* card start */
+    section.m-card {
+        height: 590px;
+    }
+  
+    .card .card-car {
+        position: absolute;
+        top: -90px;
+        left: 177px;
+    }
+    .card .card-body p{
+        padding: 17px 85px;
+    }
+    .card-star img {
+        position: absolute;
+        top: 265px;
+        left: 622px;
+    }
+  /* card end */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    /* header start */
+        .header-info{
+            margin-top: 110px;
+        }
+        .header-img {
+            margin-top: -23px;
+        }
+    /* header end */
+
+
+    /* cab section start here */
+    section.cab {
+        height: 650px;
+    }
+    .cab_left {
+        margin-top: 150px;
+        padding: 25px;
+    }
+
+    .cab_right{
+        margin-top: 170px;
+        
+        
+    }
+    /* cab section end here */
+
+
+    /* card start */
+    .card .card-car {
+        position: absolute;
+        top: -66px;
+        left: 12px;
+    }
+
+    .card-star img {
+        position: absolute;
+        top: 320px;
+        left: 222px;
+    }
+    /* card end */
+}
+
+
+/* X-Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+/* XX-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px){
+
+}
